@@ -1,0 +1,402 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.navbar {
+    width: 100%;
+}
+
+.navbar .naslov h3 {
+    color: white;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.navbar .navbar-nav {
+    position: absolute;
+    right: 0;
+}
+
+.navbar .nav-btn {
+    color: white;
+    border: 2px solid #47b2e4;
+    transition: 0.3s ease-in-out;
+    border-radius: 20px;
+}
+
+.navbar .nav-btn:hover {
+    background-color: #47b2e4;
+    transition: 0.3s ease-in-out;
+}
+
+.main-1 {
+    padding: 50px 0px;
+    background-color: #37517e;
+}
+
+.main-1 .main-red-1 .red-main-1-lijeva h1 {}
+
+.red-main-1 {
+    height: 74vh;
+}
+
+.red-main-1-lijeva {
+    color: white;
+}
+
+.red-main-1-lijeva h1 {
+    font-weight: 800;
+}
+
+.red-main-1-lijeva h5 {
+    color: rgb(173, 173, 173);
+}
+
+.red-main-1-lijeva .btn-primary {
+    border-radius: 20px;
+    padding: 10px 0px;
+    transition: 0.3s ease-in-out;
+}
+
+.red-main-1-lijeva .btn-primary:hover {
+    transform: translateY(5px);
+    transition: 0.3s ease-in-out;
+}
+
+.red-main-1-lijeva .drugi-btn {
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 10px 0px;
+    transition: 0.3s ease-in-out;
+}
+
+.red-main-1-lijeva .drugi-btn:hover {
+    background-color: white;
+    color: black;
+    transition: 0.3s ease-in-out;
+    transform: translateY(5px);
+}
+
+@-webkit-keyframes MoveUpDown {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(20px);
+    }
+}
+
+.red-main-1-desna {
+    -webkit-animation: MoveUpDown 2s ease-in-out infinite alternate;
+}
+
+@media screen and (max-width: 993px) {
+    .navbar .navbar-nav {
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 423px) {
+    .red-main-1-lijeva .btn-primary {
+        margin: 10px 0px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .red-main-1-lijeva h1 {
+        margin-top: 40px;
+    }
+}
+
+.clients img {
+    filter: grayscale(100);
+    width: 60%;
+    transition: 0.3s ease-in-out;
+}
+
+.clients img:hover {
+    filter: grayscale(0);
+    width: 65%;
+}
+
+.about-us .about-us-red h1 {
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: #37517e;
+}
+
+.about-us .about-us-red h1::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background-color: #ddd;
+    bottom: 1px;
+    left: calc(50% - 60px);
+}
+
+.about-us .about-us-red h1::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #47b2e4;
+    bottom: 0;
+    left: calc(50% - 20px);
+}
+
+.about-us-red-2 {
+    font-size: 17px;
+}
+
+.about-us-red-2 ul li {
+    list-style: none;
+}
+
+.about-us-red-2 i {
+    color: #47b2e4;
+}
+
+.about-us-red-2 .btn {
+    color: #47b2e4;
+    border: 2px solid #47b2e4;
+    padding: 7px 30px;
+    transition: 0.3s ease-in-out;
+}
+
+.about-us-red-2 .btn:hover {
+    color: white;
+    background-color: #47b2e4;
+    transition: 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 576px) {
+    .clients img {
+        padding: 10px;
+    }
+}
+
+.main-2 {
+    margin: 50px 0px;
+}
+
+.main-2 .card {
+    background-color: transparent;
+    background: transparent;
+    border: none;
+}
+
+.main-2 .card-header {
+    border-bottom: none;
+}
+
+.main-2 .main-2-ul {
+    list-style: none;
+}
+
+.main-2 .main-2-ul .paragraf-1 {
+    padding: 0;
+    margin: 0;
+}
+
+.main-2 .main-2-ul span {
+    color: #47b2e4;
+    padding-right: 10px;
+}
+
+.main-2 .main-2-ul .paragraf-1 {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.main-2 .main-2-ul i {
+    color: black;
+    transition: 0.1s ease-in-out;
+}
+
+.main-2 .main-2-ul i:hover {
+    color: #47b2e4;
+    transition: 0.1s ease-in-out;
+}
+
+.main-3 .progress-p {
+    margin-bottom: -15px;
+    font-weight: 300;
+    font-size: 13px;
+}
+
+.main-3 .progress-bar {
+    background-color: #4668a2;
+}
+
+.main-4 .services-h1 {
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: #37517e;
+    text-transform: uppercase;
+}
+
+.main-4 .services-h1::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background-color: #ddd;
+    bottom: 1px;
+    left: calc(50% - 60px);
+}
+
+.main-4 .services-h1::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #47b2e4;
+    bottom: 0;
+    left: calc(50% - 20px);
+}
+
+.main-4 .main-4-drugi-red {
+    text-align: center;
+}
+
+.main-4 .card h5 {
+    color: #274372;
+}
+
+.main-4 .card {
+    transition: 0.3s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.main-4 .card:hover {
+    transform: translateY(-7px);
+    transition: 0.3s ease-in-out;
+    color: #47b2e4;
+}
+
+.main-5 {
+    margin-top: 50px;
+    padding: 120px 0px;
+    background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url(../img/bg.jpg) fixed center center;
+    color: white;
+}
+
+.main-5 button {
+    color: white;
+    padding: 12px 45px;
+    border-radius: 20px;
+    border: 2px solid white;
+    transition: 0.3s ease-in-out;
+}
+
+.main-5 button:hover {
+    color: black;
+    background-color: white;
+    transition: 0.3s ease-in-out;
+}
+
+.main-5 h2 {
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+.aa {
+    padding: 466px 0px;
+}
+
+.main-6 {
+    padding: 100px 0px;
+}
+
+.main-6 .team-h1 {
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: #37517e;
+    text-transform: uppercase;
+    padding-bottom: 13px;
+}
+
+.main-6 .team-h1::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background-color: #ddd;
+    bottom: 1px;
+    left: calc(50% - 60px);
+}
+
+.main-6 .team-h1::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #47b2e4;
+    bottom: 0;
+    left: calc(50% - 20px);
+}
+
+.main-6 .main-6-p {
+    text-align: center;
+}
+
+.main-6 .main-6-slike img {
+    border-radius: 50%;
+    width: 60%;
+}
+
+.main-6 .card {
+    transition: 0.3s ease-in-out;
+}
+
+.main-6 .card:hover {
+    transform: translateY(-10px);
+    transition: 0.3s ease-in-out;
+}
+
+.main-6 .main-6-slike .card h4 {
+    color: #4668a2;
+}
+
+.main-6 .main-6-slike .card i {
+    padding: 7px;
+    border-radius: 50%;
+    transition: 0.3s ease-in-out;
+    color: #274372;
+}
+
+.main-6 .main-6-slike .card i:hover {
+    background-color: #47b2e4;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+.login {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.car-rent img {
+    width: 100%;
+}
+
+.car-rent {
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
